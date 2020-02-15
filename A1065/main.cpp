@@ -27,10 +27,10 @@ int main(int argc, const char * argv[]) {
     }
     for (int i = 0; i < num; i++) {
         if (data[i][0] + data[i][1] > data[i][2]) {
-            cout << "Case#" << (i + 1) << ": True" << endl;
+            cout << "Case #" << (i + 1) << ": true" << endl;
         }
         else {
-            cout << "Case#" << (i + 1) << ": False" << endl;
+            cout << "Case #" << (i + 1) << ": false" << endl;
         }
     }
     return 0;

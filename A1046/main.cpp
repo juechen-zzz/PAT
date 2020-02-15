@@ -21,7 +21,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     int total_count = 0;
     int sum = 0;
-    cout << "输入出口个数及相邻距离：";
+    // cout << "输入出口个数及相邻距离：";
     cin >> total_count;
     int D[total_count];
     for (int i = 0 ; i < total_count; i++) {
@@ -29,17 +29,17 @@ int main(int argc, const char * argv[]) {
         sum += D[i];
     }
     
-    cout << "输入测试案例数目：";
+    // cout << "输入测试案例数目：";
     int num = 0;
     cin >> num;
     int test_case[2 * num];
     
-    cout << "输入测试案例出口号码：" << endl;
+    // cout << "输入测试案例出口号码：" << endl;
     for (int i = 0; i < (2 * num); i = i + 2) {
         cin >> test_case[i] >> test_case[i + 1];
     }
     
-    cout << "结果为：" << endl;
+    // cout << "结果为：" << endl;
     for (int i = 0; i < (2 * num); i = i + 2) {
         int a, b;
         int min_d = 0;
